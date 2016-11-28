@@ -2563,6 +2563,7 @@ GameObject:
   m_Component:
   - 224: {fileID: 1483138421}
   - 114: {fileID: 1483138422}
+  - 114: {fileID: 1483138423}
   m_Layer: 5
   m_Name: Combos
   m_TagString: Untagged
@@ -2599,6 +2600,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 807f2ec024e9a482490b5ea0cb709c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: {fileID: 1483138423}
+--- !u!114 &1483138423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1483138420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b95ac8744ff496dbeacbf194524911, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   images:
@@ -3038,6 +3051,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0071c2e65a30d43a5b435bb8f45cbd2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  noteManager: {fileID: 1111452310}
+  comboManager: {fileID: 1483138422}
   bgm: {fileID: 1768698208}
   se: {fileID: 8300000, guid: 1351ac42a6ca2475284f14c5291b4949, type: 3}
 --- !u!1 &1801763931

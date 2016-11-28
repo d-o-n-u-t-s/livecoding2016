@@ -23,6 +23,9 @@ public class NoteManager : MonoBehaviour
     private Queue<NoteData> noteDatas = new Queue<NoteData>();
     private List<Note> notes = new List<Note>();
 
+    public int PerfectCount { get; private set; }
+    public int MissCount { get; private set; }
+
     void Start()
     {
         // 譜面読み込み
@@ -71,8 +74,10 @@ public class NoteManager : MonoBehaviour
             sound.PlaySE();
             combo.AddScore();
             animations[note.Data.Position].Play();
+            PerfectCount++;
         } else {
             combo.Reset();
+            MissCount++;
         }
 
         notes.Remove(note);

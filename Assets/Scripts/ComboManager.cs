@@ -4,10 +4,10 @@ using System.Collections;
 
 public class ComboManager : MonoBehaviour {
 
-    [SerializeField] private Image[] images;
-    [SerializeField] private Sprite[] numbers;
+    [SerializeField] private Number number;
 
-    int comboCount;
+    public int MaxCombo { get; private set; }
+    private int comboCount;
 
 	// Use this for initialization
 	void Start () {
@@ -16,23 +16,13 @@ public class ComboManager : MonoBehaviour {
 
     public void AddScore() {
         comboCount++;
+        MaxCombo = Mathf.Max(MaxCombo, comboCount);
 
-        var value = comboCount;
-        for(var i = 0; i < 3; i++) {
-            var val = value % 10;
-            images[i].sprite = numbers[val];
-            if(val != 0) {
-                images[i].gameObject.SetActive(true);
-            }
-            value = value / 10;
-        }
+        number.SetNumber(comboCount);
     }
 
     public void Reset() {
+        number.SetNumber(0);
         comboCount = 0;
-        for(var i = 1; i < 3; i++) {
-            images[i].gameObject.SetActive(false);
-        }
-        images[0].sprite = numbers[0];
     }
 }
