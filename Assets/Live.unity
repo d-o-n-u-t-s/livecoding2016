@@ -2616,6 +2616,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 86e7ee78b6b74460c89bf5754a794dda, type: 3}
   - {fileID: 21300000, guid: 29c05a59b58ea4ce898d6e03acd6f290, type: 3}
   - {fileID: 21300000, guid: ece38db158a9c470a936e03baaf38a78, type: 3}
+  otakuAnimations:
+  - {fileID: 1843548575}
+  - {fileID: 697174798}
 --- !u!1 &1484044798
 GameObject:
   m_ObjectHideFlags: 0

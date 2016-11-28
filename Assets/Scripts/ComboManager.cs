@@ -1,13 +1,17 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 public class ComboManager : MonoBehaviour {
 
     [SerializeField] private Image[] images;
     [SerializeField] private Sprite[] numbers;
+    [SerializeField] private List<Animation> otakuAnimations;
 
     int comboCount;
+
 
 	// Use this for initialization
 	void Start () {
@@ -25,6 +29,15 @@ public class ComboManager : MonoBehaviour {
                 images[i].gameObject.SetActive(true);
             }
             value = value / 10;
+        }
+
+        // オタクアニメーション開始
+        if(comboCount >= 10) {
+            otakuAnimations.ForEach(o => { 
+                if(!o.isPlaying) {
+                    o.Play();
+                }
+            });
         }
     }
 
