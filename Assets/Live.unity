@@ -2616,6 +2616,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   number: {fileID: 1483138423}
+  otakues:
+  - {fileID: 1843548576}
+  - {fileID: 697174799}
 --- !u!114 &1483138423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2642,9 +2645,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 86e7ee78b6b74460c89bf5754a794dda, type: 3}
   - {fileID: 21300000, guid: 29c05a59b58ea4ce898d6e03acd6f290, type: 3}
   - {fileID: 21300000, guid: ece38db158a9c470a936e03baaf38a78, type: 3}
-  otakues:
-  - {fileID: 1843548576}
-  - {fileID: 697174799}
 --- !u!1 &1484044798
 GameObject:
   m_ObjectHideFlags: 0

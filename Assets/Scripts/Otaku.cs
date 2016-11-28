@@ -7,7 +7,7 @@ public class Otaku : MonoBehaviour {
 
     private Vector2 initPosition;
 
-	void Start () {
+	void Awake () {
         initPosition = new Vector2(transform.position.x, transform.position.y);
 	}
 
@@ -26,5 +26,6 @@ public class Otaku : MonoBehaviour {
     private void stop() {
         animation.Stop();
         transform.position = initPosition;
+        transform.localScale = Vector3.one;
     }
 }
