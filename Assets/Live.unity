@@ -1482,6 +1482,7 @@ GameObject:
   - 222: {fileID: 697174797}
   - 114: {fileID: 697174796}
   - 111: {fileID: 697174798}
+  - 114: {fileID: 697174799}
   m_Layer: 5
   m_Name: Otaku (1)
   m_TagString: Untagged
@@ -1552,9 +1553,21 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: 66f4f96ffc06748ac899cf4632f83e11, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &697174799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 697174794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe57fb44ddb14009b04ab8847bd523a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animation: {fileID: 697174798}
 --- !u!1 &697239936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2629,6 +2642,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 86e7ee78b6b74460c89bf5754a794dda, type: 3}
   - {fileID: 21300000, guid: 29c05a59b58ea4ce898d6e03acd6f290, type: 3}
   - {fileID: 21300000, guid: ece38db158a9c470a936e03baaf38a78, type: 3}
+  otakues:
+  - {fileID: 1843548576}
+  - {fileID: 697174799}
 --- !u!1 &1484044798
 GameObject:
   m_ObjectHideFlags: 0
@@ -3125,6 +3141,7 @@ GameObject:
   - 222: {fileID: 1843548574}
   - 114: {fileID: 1843548573}
   - 111: {fileID: 1843548575}
+  - 114: {fileID: 1843548576}
   m_Layer: 5
   m_Name: Otaku
   m_TagString: Untagged
@@ -3195,9 +3212,21 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: 66f4f96ffc06748ac899cf4632f83e11, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1843548576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1843548571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe57fb44ddb14009b04ab8847bd523a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animation: {fileID: 1843548575}
 --- !u!1 &1875164005
 GameObject:
   m_ObjectHideFlags: 0
