@@ -419,6 +419,7 @@ GameObject:
   - 224: {fileID: 486413327}
   - 222: {fileID: 486413329}
   - 114: {fileID: 486413328}
+  - 111: {fileID: 486413330}
   m_Layer: 5
   m_Name: You
   m_TagString: Untagged
@@ -477,6 +478,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 486413326}
+--- !u!111 &486413330
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 486413326}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 376f9aeee019a48848b74fe115648dc6, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 376f9aeee019a48848b74fe115648dc6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &607344771
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,6 +734,7 @@ GameObject:
   - 224: {fileID: 744495975}
   - 222: {fileID: 744495977}
   - 114: {fileID: 744495976}
+  - 111: {fileID: 744495978}
   m_Layer: 5
   m_Name: Mine
   m_TagString: Untagged
@@ -776,6 +793,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 744495974}
+--- !u!111 &744495978
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744495974}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 376f9aeee019a48848b74fe115648dc6, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 376f9aeee019a48848b74fe115648dc6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1003760754
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,6 +877,7 @@ GameObject:
   - 224: {fileID: 1042512167}
   - 222: {fileID: 1042512169}
   - 114: {fileID: 1042512168}
+  - 111: {fileID: 1042512170}
   m_Layer: 5
   m_Name: Mi
   m_TagString: Untagged
@@ -903,6 +936,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1042512166}
+--- !u!111 &1042512170
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1042512166}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 376f9aeee019a48848b74fe115648dc6, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 376f9aeee019a48848b74fe115648dc6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1073315940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,7 +1103,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 38}
+  m_AnchoredPosition: {x: 0, y: -804}
   m_SizeDelta: {x: 237, y: 226.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195532025
@@ -1293,6 +1341,7 @@ GameObject:
   - 224: {fileID: 1376867465}
   - 222: {fileID: 1376867467}
   - 114: {fileID: 1376867466}
+  - 111: {fileID: 1376867468}
   m_Layer: 5
   m_Name: I
   m_TagString: Untagged
@@ -1309,7 +1358,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20.46875}
   m_Children: []
   m_Father: {fileID: 1003760755}
   m_RootOrder: 0
@@ -1351,6 +1400,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1376867464}
+--- !u!111 &1376867468
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1376867464}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 376f9aeee019a48848b74fe115648dc6, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 376f9aeee019a48848b74fe115648dc6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1417452101
 GameObject:
   m_ObjectHideFlags: 0
@@ -2165,6 +2229,7 @@ GameObject:
   - 224: {fileID: 1886098709}
   - 222: {fileID: 1886098711}
   - 114: {fileID: 1886098710}
+  - 111: {fileID: 1886098712}
   m_Layer: 5
   m_Name: Me
   m_TagString: Untagged
@@ -2223,6 +2288,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1886098708}
+--- !u!111 &1886098712
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1886098708}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 376f9aeee019a48848b74fe115648dc6, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 376f9aeee019a48848b74fe115648dc6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &2077609057
 GameObject:
   m_ObjectHideFlags: 0
