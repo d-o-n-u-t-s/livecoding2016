@@ -8,10 +8,9 @@ public class ComboManager : MonoBehaviour {
 
     [SerializeField] private Image[] images;
     [SerializeField] private Sprite[] numbers;
-    [SerializeField] private List<Animation> otakuAnimations;
+    [SerializeField] private List<Otaku> otakues;
 
     int comboCount;
-
 
 	// Use this for initialization
 	void Start () {
@@ -32,13 +31,7 @@ public class ComboManager : MonoBehaviour {
         }
 
         // オタクアニメーション開始
-        if(comboCount >= 10) {
-            otakuAnimations.ForEach(o => { 
-                if(!o.isPlaying) {
-                    o.Play();
-                }
-            });
-        }
+        otakues.ForEach(o => o.SetAnimation(comboCount));
     }
 
     public void Reset() {
@@ -47,5 +40,6 @@ public class ComboManager : MonoBehaviour {
             images[i].gameObject.SetActive(false);
         }
         images[0].sprite = numbers[0];
+        otakues.ForEach(o => o.SetAnimation(comboCount));
     }
 }
