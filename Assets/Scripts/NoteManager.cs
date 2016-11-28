@@ -18,6 +18,7 @@ public class NoteManager : MonoBehaviour
     [SerializeField] private TextAsset data;
     [SerializeField] private Note noteBase;
     [SerializeField] private KeyCode[] keys;
+    [SerializeField] private Animation[] animations;
 
     private Queue<NoteData> noteDatas = new Queue<NoteData>();
     private List<Note> notes = new List<Note>();
@@ -69,6 +70,7 @@ public class NoteManager : MonoBehaviour
         if(isPerfect) {
             sound.PlaySE();
             combo.AddScore();
+            animations[note.Data.Position].Play();
         } else {
             combo.Reset();
         }
